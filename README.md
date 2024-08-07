@@ -2,10 +2,12 @@
 ## Big picture
 ### Sampling process
 image($\hat{\vec{x}}$) --> patches of smaller images -->  flatten to 1D vector --> DCT & Randomly Sample --> $\vec{y}$
+
 $$
 \vec{y} = \Phi \Psi \vec{x}
 $$
 ### Restoring process
+
 $$
 \text{min} ||\vec{y} - \Phi \alpha||_2 + \lambda ||alpha||_1
 $$
