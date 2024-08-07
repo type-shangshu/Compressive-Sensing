@@ -11,6 +11,7 @@ $$
 $$
 \text{min} ||\vec{y} - \Phi \alpha||_2 + \lambda ||alpha||_1
 $$
+
 This is also known as LASSO Regression. If sampling array can be designed, the restoration would have higher quality.
 ### Adaptive: scene dependent
 The Restricted Isometry Property of compressive sensing indicates the connection between sampling error (the error of solving $\vec{\alpha}$ from $\vec{y}$) and reconstruction quality (PSNR). So, sampling error may be an estimation of reconstruction quality, and higher error means that in this region, higher sampling rate needed.
