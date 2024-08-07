@@ -9,7 +9,7 @@ $$
 ### Restoring process
 
 $$
-\text{min} ||\vec{y} - \Phi \alpha||_2 + \lambda ||alpha||_1
+\text{min} ||\vec{y} - \Phi \alpha||_2 + \lambda ||\alpha||_1
 $$
 
 This is also known as LASSO Regression. If sampling array can be designed, the restoration would have higher quality.
